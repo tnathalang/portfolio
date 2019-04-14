@@ -117,8 +117,28 @@
   padding-bottom: 0.25em
 }
 
-.skill-list{
-  display: flex;
-  justify-content: space-between;
-  margin-right: 2em;
+.minibox{
+  background: #5e5e5e
 }
+
+.softskills{
+  margin: 1em
+}
+
+.skill-underline{
+  border-bottom: 0.01em solid
+}
+
+.top_categories{
+  margin: 1em;
+  display: flex;
+  justify-content: space-between
+}
+
+
+
+// .skill-list{
+//   display: flex;
+//   justify-content: space-between;
+//   margin-right: 2em;
+// }

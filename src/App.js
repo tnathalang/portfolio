@@ -5,14 +5,21 @@ import Intro from './components/intro'
 import AboutMe from './components/aboutme'
 import Skills from './components/skills'
 
+
+
+
+import Fade from 'react-reveal/Fade'
+
 class App extends Component {
   render() {
     return (
       <div>
         <Nav />
         <Intro />
-        <AboutMe />
-        <Skills />
+        <Fade bottom>
+          <AboutMe />
+          <Skills />
+        </Fade>
         {/* <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

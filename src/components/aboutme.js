@@ -12,7 +12,7 @@ class AboutMe extends Component {
                 </div>
                 <div className="AboutMe-text">
                     {/* <div className="w3-content w3-container w3-padding-64" id="about"> */}
-                    <h3 className="title">ABOUT ME</h3>
+                    <h3 className="title"><b>ABOUT ME</b></h3>
                     <p className="summary">I want to build something that contributes to the bigger things</p>
                     <p>
                         Ever since I was a kid, I always had a curiosity for technology and video games.
@@ -22,6 +22,7 @@ class AboutMe extends Component {
                         it honestly feels very fufilling. <b>One of my dreams would be to work in Japan as a developer one day.</b>
                     </p>
                     <h3 className="proverb">
+                        <h3 className="quote"><b>Proverb I live by:</b> </h3>
                         虎穴に入らずんば虎子を得ず.
                         (nothing ventured, nothing gained).
                         - Japanese Proverb

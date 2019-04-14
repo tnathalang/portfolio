@@ -3,6 +3,7 @@ import './App.scss';
 import Nav from './components/header'
 import Intro from './components/intro'
 import AboutMe from './components/aboutme'
+import Skills from './components/skills'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Nav />
         <Intro />
         <AboutMe />
+        <Skills />
         {/* <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

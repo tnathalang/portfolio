@@ -107,3 +107,13 @@
   border-bottom: 1px solid;
   padding-bottom: 0.25em 
 }
+.skills{
+  background: gray;
+  color: white
+}
+
+.skill-list{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2em;
+}

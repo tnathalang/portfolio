@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Nav from './components/header'
 import Intro from './components/intro'
+import AboutMe from './components/aboutme'
 
 class App extends Component {
   render() {
@@ -10,6 +10,7 @@ class App extends Component {
       <div>
         <Nav />
         <Intro />
+        <AboutMe />
         {/* <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

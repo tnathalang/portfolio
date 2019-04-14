@@ -34,9 +34,10 @@
   }
   
   body,h1,h2,h3,h4,h5,h6, body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
+  // height: 100%;
+  // color: #777;
+  // line-height: 1.8;
+  font-family: 'Raleway', sans-serif
 }
 
 /* Create a Parallax Effect */
@@ -78,4 +79,31 @@
 .w3-bar{
   z-index: 9000;
     color: white;
+}
+
+.mini-intro{
+  color: white;
+}
+
+.mini-intro1{
+  color:black
+}
+
+.AboutMe-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em
+}
+.profile{
+  max-width: 50%;
+  height: auto;
+}
+.AboutMe{
+  display: flex;
+  margin: 1em;
+}
+
+.title{
+  border-bottom: 1px solid;
+  padding-bottom: 0.25em 
 }

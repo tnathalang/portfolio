@@ -20,8 +20,8 @@ class App extends Component {
         <Fade bottom>
           <AboutMe />
           <Skills />
-          <Work />
         </Fade>
+        <Work />
         {/* <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

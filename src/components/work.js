@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Chatty from '../images/chatty.png'
+import pearup from '../images/pearup.png'
+import jungle from '../images/jungle.png'
+import tweeter from '../images/tweeter.png'
 
 
 
@@ -16,22 +20,22 @@ class Work extends Component {
 
                     <div className="w3-content w3-container w3-padding-64" id="portfolio">
                         <h3 className="w3-center">MY WORK</h3>
-                        <p className="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br /> Click on the images to make them bigger</em></p><br />
+                        <p className="w3-center"><em>Here are some of my latest works I did.<br /> Click on the images to make them bigger</em></p><br />
                     </div>
                 </div>
                 <div>
                     <div className="w3-row-padding w3-center">
                         <div className="w3-col m3">
-                            <img src="/w3images/p1.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Pear-UP!" />
+                            <img src={pearup} style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Pear-UP!" />
                         </div>
                         <div className="w3-col m3">
-                            <img src="/w3images/p2.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Jungle" />
+                            <img src={jungle} style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Jungle" />
                         </div>
                         <div className="w3-col m3">
-                            <img src="/w3images/p3.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Chatty" />
+                            <img src={Chatty} style={{ width: '100%' }} onclick=" onClick(this)" className="w3-hover-opacity" alt="Chatty" />
                         </div>
                         <div className="w3-col m3">
-                            <img src="/w3images/p4.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Tweeter" />
+                            <img src={tweeter} style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Tweeter" />
                         </div>
                     </div>
                 </div>

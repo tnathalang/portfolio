@@ -4,6 +4,7 @@ import Nav from './components/header'
 import Intro from './components/intro'
 import AboutMe from './components/aboutme'
 import Skills from './components/skills'
+import Work from './components/work'
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Fade bottom>
           <AboutMe />
           <Skills />
+          <Work />
         </Fade>
         {/* <div className="App">
           <header className="App-header">

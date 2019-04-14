@@ -17,82 +17,72 @@ class Skills extends Component {
                 <div className="minibox">
                     <p class="w3-large w3-center w3-padding-16"><h3>Some of the things I can do</h3></p>
                 </div>
-                <div className="skill-list">
-                    <div className="softskills">
-                        <h3 class="skill-underline">Languages</h3>
-                        <div class="top_categories">
-                            <div class="my-group">
-                                <div class="cat_icon">
-                                    <i class="fab fa-js-square fa-3x"></i>
+                <div class="top_categories">
+                    <h3 class="skill-underline">Languages</h3>
+                    <div className="link">
+                        <div class="my-group">
+                            Javascript es5 es6
                                 </div>
-                                <div class="cat_text">
-                                    Javascript es5 es6
+                        <div class="my-group">
+                            Ruby on Rails
                                 </div>
-                            </div>
-                            <div class="my-group">
-                                <div class="cat_icon">
-                                    <i class="fab fa-html5 fa-3x"></i>
+                        <div class="my-group">
+                            HTML 5
                                 </div>
-                                <div class="cat_text">
-                                    Ruby on Rails
-                                </div>
-                            </div>
-                            <div class="my-group">
-                                <div class="cat_icon">
-                                    <i class="fab fa-html5 fa-3x"></i>
-                                </div>
-                                <div class="cat_text">
-                                    HTML 5
-                                </div>
-                            </div>
-                            <div class="my-group">
-                                <div class="cat_icon">
-                                    <i class="fab fa-css3 fa-3x"></i>
-                                </div>
-                                <div class="cat_text">
-                                    CSS 3
-                                </div>
-                            </div>
-
+                        <div class="my-group">
+                            CSS 3
                         </div>
-
-                        <div>
-                            <h3 class="skill-underline">Dev Tools</h3>
+                        <h3 class="skill-underline">Dev Tools</h3>
+                        <div className="link">
                             <div class="my-group">
-                                <div class="cat_icon">
-                                    <i class="fab fa-github fa-3x"></i>
+                                Git/ Github
                                 </div>
-                                <div class="cat_text">
-                                    Git/Github
+                            <div class="my-group">
+                                VSCode
                                 </div>
-                            </div>
-
-                            VS Code
-                            Terminal
-                            WordPress
-                            Contentful
+                            <div class="my-group">
+                                Terminal
+                                </div>
+                            <div class="my-group">
+                                Wordpress
+                                </div>
+                            <div class="my-group">
+                                Contentful
+                                </div>
                         </div>
-
-
-
                     </div>
-                    {/* <div>
-                        <ul><h3>Freameworks, Library,<br /> Env, Database</h3></ul>
-                        <ol>NodeJS</ol>
-                        <ol>React</ol>
-                        <ol>Rails</ol>
-                        <ol>Ajax</ol>
-                        <ol>JQuery</ol>
-                        <ol>Express</ol>
-                        <ol>Knex</ol>
-                        <ol>SASS</ol>
-                        <ol>Bootstrap</ol>
-                        <ol>PostgreSQL</ol>
-                        <ol>GraphQL</ol>
-                        <ol>SQL</ol>
-                    </div> */}
+                    <h3 class="skill-underline">Frameworks</h3>
+                    <div className="link">
+                        <div class="my-group">
+                            React
+                                </div>
+                        <div class="my-group">
+                            Node.js
+                                </div>
+                        <div class="my-group">
+                            Express
+                                </div>
+                        <div class="my-group">
+                            Knex
+                                </div>
+                        <div class="my-group">
+                            JQuery /Ajax
+                                </div>
+                        <div class="my-group">
+                            SASS
+                                </div>
+                        <div class="my-group">
+                            Bootstrap
+                                </div>
+                        <div class="my-group">
+                            GraphQL
+                                </div>
+                        <div class="my-group">
+                            PostgreSQL
+                        </div>
+                    </div>
                 </div>
-            </div >
+            </div>
         );
     }
 }

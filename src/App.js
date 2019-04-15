@@ -6,6 +6,7 @@ import AboutMe from './components/aboutme'
 import Skills from './components/skills'
 import Work from './components/work'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
         <Work />
         <Fade bottom>
           <Contact />
+          <Footer />
         </Fade>
         {/* <div className="App">
           <header className="App-header">

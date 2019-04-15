@@ -14,7 +14,7 @@ class Intro extends Component {
                             Hi, I'm Tom
                         </h1>
                         <h2 className="mini-intro1 w3-animate-opacity">
-                            Developer. Spicy Food. Badminton
+                            Web Developer, Spicy Food and Sushi lover
                         </h2>
                         {/* <span className="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Hi, I'm Tom</span> */}
                     </div>

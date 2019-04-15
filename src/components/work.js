@@ -12,7 +12,7 @@ class Work extends Component {
 
     render() {
         return (
-            <div>
+            <div href="#portfolio">
                 <div >
                     <div className="bgimg-2 w3-display-container w3-opacity-min">
                         <div className="w3-display-middle">
@@ -26,15 +26,19 @@ class Work extends Component {
                     </div>
                 </div>
                 <div class="grid-container">
-                    <div className="col">
+                    <div className="col-md-6">
                         <img src={pearup} style={{ width: '100%' }} onclick="onClick(this)" className="hover" alt="Pear-UP!" />
                         <p className="text-work">some demo text</p>
+                    </div>
+                    <div className="col-md-6">
                         <img src={jungle} style={{ width: '100%' }} onclick="onClick(this)" className="hover" alt="Jungle" />
                         <p className="text-work">some demo text</p>
                     </div>
-                    <div className="col2">
+                    <div className="col-md-6">
                         <img src={Chatty} style={{ width: '100%' }} onclick=" onClick(this)" className="hover" alt="Chatty" />
                         <p className="text-work">some demo text</p>
+                    </div>
+                    <div className="col-md-6">
                         <img src={tweeter} style={{ width: '100%' }} onclick="onClick(this)" className="hover" alt="Tweeter" />
                         <p className="text-work">some demo text</p>
                     </div>

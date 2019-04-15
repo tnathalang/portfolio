@@ -129,16 +129,30 @@
   border-bottom: 0.01em solid
 }
 
-.text-work {
-  position: relative;
-  bottom:30px;
-  left:0px;
-  visibility: hidden;
+.hover{
+  width: 100%;
+  // margin: 4px;
+  // background-position: center;
+  // transition: 0.5s;
 }
 
-img.hover:hover{
-  filter: brightness(20%)
+a.tech-stack{
+  position:relative;
+  color: inherit
 }
+
+.portfolio{
+    background: lightgrey;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+// img.hover:hover{
+//   filter: brightness(20%)
+// }
 
 #last-sentence{
   border-top: 0.15em solid

@@ -5,7 +5,7 @@ import Intro from './components/intro'
 import AboutMe from './components/aboutme'
 import Skills from './components/skills'
 import Work from './components/work'
-
+import Contact from './components/contact'
 
 
 
@@ -22,6 +22,9 @@ class App extends Component {
           <Skills />
         </Fade>
         <Work />
+        <Fade bottom>
+          <Contact />
+        </Fade>
         {/* <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

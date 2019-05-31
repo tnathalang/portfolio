@@ -32,11 +32,8 @@ const styles = theme => ({
 });
 
 const useStyles = makeStyles({
-  card: {
-    maxWidth: 400
-  },
   media: {
-    height: 140
+    height: 220
   }
 });
 
@@ -50,16 +47,16 @@ function MediaCard() {
           <span className="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
         </div>
       </div>
-      <div id="portfolio">
+      <div id="portfolio-box">
         <div>
-          <h3 className="w3-center">MY WORKS</h3>
-          <p className="w3-center">
+          <h3 className="work">MY WORKS</h3>
+          <p className="work">
             <em>Here are some of my latest works I did.</em>
           </p>
           <br />
         </div>
-        <div classname="grid-container">
-          <div>
+        <div className="grid-container">
+          <div className="box">
             <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
@@ -189,7 +186,8 @@ function MediaCard() {
                   </Typography>
                   <Typography>
                     A twitter clone project to help learn front-end without
-                    frameworks and css practice, flexbox etc.
+                    frameworks and css practice. You can send tweets and they
+                    are stored.
                   </Typography>
                   <Typography
                     variant="body3"

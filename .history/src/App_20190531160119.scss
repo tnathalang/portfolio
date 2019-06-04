@@ -106,22 +106,17 @@ html {
 }
 
 .AboutMe-text {
-  padding: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
 }
-
 .profile {
   max-width: 50%;
   height: auto;
-  margin-left: 1em;
-  margin-top: 1em;
 }
-// .AboutMe {
-//   display: flex;
-//   margin: 1em;
-// }
-
-.proverb {
-  margin: 0.25em 1em;
+.AboutMe {
+  display: flex;
+  margin: 1em;
 }
 
 .title {

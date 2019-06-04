@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import Chatty from "../images/chatty.png";
 import pearup from "../images/pearup.png";
 import jungle from "../images/jungle.png";
@@ -39,6 +39,15 @@ const useStyles = makeStyles({
 
 function MediaCard() {
   const classes = useStyles();
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <div className="portfolio" href="#portfolio">
@@ -48,22 +57,33 @@ function MediaCard() {
         </div>
       </div>
       <div id="portfolio-box">
-        <div>
-          <h3 className="work">MY WORKS</h3>
-          <p className="work">
-            <em>Here are some of my latest works I did.</em>
-          </p>
-          <br />
-        </div>
+        <h3 className="work">MY WORKS</h3>
+        <p className="work">
+          <em>Here are some of my latest works I did.</em>
+        </p>
+        <br />
+
         <div className="grid-container">
           <div className="box">
-            <Card className={classes.card}>
+            <Card className={classes.card} href="#open-modal">
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
                   image={pearup}
                   title="Social Media for introverts"
                 />
+                <div id="open-modal" class="modal-window">
+                  <div>
+                    <a href="#" title="Close" class="modal-close">
+                      Close
+                    </a>
+                    <h1>Voilà!</h1>
+                    <div>
+                      A CSS-only modal based on the :target pseudo-class. Hope
+                      you find it helpful.
+                    </div>
+                  </div>
+                </div>
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
                     Pear-UP!
@@ -83,6 +103,7 @@ function MediaCard() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
+
               <CardActions>
                 <Button
                   size="small"

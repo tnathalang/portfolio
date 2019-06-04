@@ -6,8 +6,8 @@ class AboutMe extends Component {
     return (
       <div>
         <div>
-          <div>
-            <div className="AboutMe-container">
+          <div className="AboutMe-container">
+            <div>
               <div className="profile">
                 <img
                   src={profile}

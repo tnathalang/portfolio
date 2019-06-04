@@ -43,7 +43,7 @@ class AboutMe extends Component {
                 </p>
               </div>
             </div>
-            <h3 className="proverb">
+            <h3 className="container">
               <h3 className="quote">
                 <b>I live by</b>{" "}
               </h3>
